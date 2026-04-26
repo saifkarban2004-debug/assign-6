@@ -78,7 +78,13 @@ h6{
 /* ___________________________________________________________________________________________________________________________ */
 
 /* section2 */
-
+.navbar-toggler{
+    transition: 0.3s;
+}
+.navbar-toggler:focus{
+    border: 1px solid var(--main-color) !important;
+    box-shadow: none !important;
+}
 
 .hero-section{
 background-image: linear-gradient(rgba(0, 0, 0, 0.9) ,rgba(0 , 0 ,0 ,0.9)) , url(../images/hero-secton.jpg);
