@@ -842,3 +842,11 @@ transition: 0.5s ease;
         font-size: 1.5rem;
     }
 }
+
+
+
+@media  (max-width: 725px) {
+    .display-none{
+        display: none;
+    }
+}
